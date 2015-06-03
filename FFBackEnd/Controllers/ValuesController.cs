@@ -7,19 +7,20 @@ using System.Web.Http;
 
 namespace FFBackEnd.Controllers
 {
+ 
     [Authorize]
     public class ValuesController : ApiController
     {
         // GET api/values
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "Values", "Test" };
         }
 
         // GET api/values/5
         public string Get(int id)
         {
-            return "value";
+            return "Hello";
         }
 
         // POST api/values

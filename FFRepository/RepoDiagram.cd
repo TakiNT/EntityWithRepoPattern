@@ -1,17 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="FFRepository.BaseRepository">
-    <Position X="5.25" Y="1.25" Width="2.75" />
+  <Class Name="FFRepository.BaseRepository&lt;T&gt;">
+    <Position X="4.5" Y="1.25" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAQAAEAAAEAAAAAAAgAABACAAAEAgAAACgAAAAEAEAA=</HashCode>
       <FileName>BaseRepository.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="FFRepository.IBaseRepository" Collapsed="true">
-    <Position X="1.25" Y="1.25" Width="2" />
+  <Class Name="FFRepository.UnitOfWork">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgEAAACAAAAQAEAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FFRepository.PostRepository">
+    <Position X="4.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PostRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FFRepository.IBaseRepository&lt;T&gt;">
+    <Position X="2.25" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAABACAAAEAgAAAAgAAAAEAEAA=</HashCode>
       <FileName>IBaseRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FFRepository.IUnitOfWork">
+    <Position X="9.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAEAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IUnitOfWork.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Tahoma" Size="8.25" />

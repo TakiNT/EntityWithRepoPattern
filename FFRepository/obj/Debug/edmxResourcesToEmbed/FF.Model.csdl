@@ -13,8 +13,94 @@
     <Property Name="ptags" Type="Int32" />
     <Property Name="pdate" Type="DateTime" Precision="3" />
     <Property Name="pavailable" Type="Byte" />
+    <NavigationProperty Name="Author" Relationship="FinalFantasyModel.FK_Post_Author" FromRole="Post" ToRole="Author" />
+    <NavigationProperty Name="PostMedia" Relationship="FinalFantasyModel.FK_Post_Media1" FromRole="Post" ToRole="PostMedia" />
+    <NavigationProperty Name="PostTag" Relationship="FinalFantasyModel.FK_Post_Tags1" FromRole="Post" ToRole="PostTag" />
   </EntityType>
   <EntityContainer Name="FinalFantasyEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Posts" EntityType="Self.Post" />
+    <EntitySet Name="Authors" EntityType="FinalFantasyModel.Author" />
+    <AssociationSet Name="FK_Post_Author" Association="FinalFantasyModel.FK_Post_Author">
+      <End Role="Author" EntitySet="Authors" />
+      <End Role="Post" EntitySet="Posts" />
+    </AssociationSet>
+    <EntitySet Name="PostMedias" EntityType="FinalFantasyModel.PostMedia" />
+    <EntitySet Name="PostTags" EntityType="FinalFantasyModel.PostTag" />
+    <AssociationSet Name="FK_Post_Media1" Association="FinalFantasyModel.FK_Post_Media1">
+      <End Role="PostMedia" EntitySet="PostMedias" />
+      <End Role="Post" EntitySet="Posts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Post_Tags1" Association="FinalFantasyModel.FK_Post_Tags1">
+      <End Role="PostTag" EntitySet="PostTags" />
+      <End Role="Post" EntitySet="Posts" />
+    </AssociationSet>
   </EntityContainer>
+  <EntityType Name="Author">
+    <Key>
+      <PropertyRef Name="aId" />
+    </Key>
+    <Property Name="aId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="aFirstName" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
+    <Property Name="aLastName" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
+    <Property Name="aUsername" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="aPassword" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="aDateJoin" Type="DateTime" Precision="3" />
+    <Property Name="aIsWork" Type="Byte" />
+    <NavigationProperty Name="Posts" Relationship="FinalFantasyModel.FK_Post_Author" FromRole="Author" ToRole="Post" />
+  </EntityType>
+  <Association Name="FK_Post_Author">
+    <End Type="FinalFantasyModel.Author" Role="Author" Multiplicity="0..1" />
+    <End Type="FinalFantasyModel.Post" Role="Post" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Author">
+        <PropertyRef Name="aId" />
+      </Principal>
+      <Dependent Role="Post">
+        <PropertyRef Name="pauthor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="PostMedia">
+    <Key>
+      <PropertyRef Name="mid" />
+    </Key>
+    <Property Name="mid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="mname" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
+    <Property Name="msource" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="mupload" Type="DateTime" Precision="3" />
+    <Property Name="mavailable" Type="Byte" />
+    <NavigationProperty Name="Posts" Relationship="FinalFantasyModel.FK_Post_Media1" FromRole="PostMedia" ToRole="Post" />
+  </EntityType>
+  <EntityType Name="PostTag">
+    <Key>
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Name="tid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tiname" Type="String" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Posts" Relationship="FinalFantasyModel.FK_Post_Tags1" FromRole="PostTag" ToRole="Post" />
+  </EntityType>
+  <Association Name="FK_Post_Media1">
+    <End Type="FinalFantasyModel.PostMedia" Role="PostMedia" Multiplicity="0..1" />
+    <End Type="FinalFantasyModel.Post" Role="Post" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PostMedia">
+        <PropertyRef Name="mid" />
+      </Principal>
+      <Dependent Role="Post">
+        <PropertyRef Name="pimage" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Post_Tags1">
+    <End Type="FinalFantasyModel.PostTag" Role="PostTag" Multiplicity="0..1" />
+    <End Type="FinalFantasyModel.Post" Role="Post" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PostTag">
+        <PropertyRef Name="tid" />
+      </Principal>
+      <Dependent Role="Post">
+        <PropertyRef Name="ptags" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

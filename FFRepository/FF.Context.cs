@@ -26,5 +26,8 @@ namespace FFRepository
         }
     
         public virtual DbSet<Post> Posts { get; set; }
+        public virtual DbSet<Author> Authors { get; set; }
+        public virtual DbSet<PostMedia> PostMedias { get; set; }
+        public virtual DbSet<PostTag> PostTags { get; set; }
     }
 }

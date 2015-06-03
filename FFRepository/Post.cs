@@ -23,5 +23,9 @@ namespace FFRepository
         public Nullable<int> ptags { get; set; }
         public Nullable<System.DateTime> pdate { get; set; }
         public Nullable<byte> pavailable { get; set; }
+    
+        public virtual Author Author { get; set; }
+        public virtual PostMedia PostMedia { get; set; }
+        public virtual PostTag PostTag { get; set; }
     }
 }

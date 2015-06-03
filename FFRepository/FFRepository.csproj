@@ -43,6 +43,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,6 +51,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Author.cs">
+      <DependentUpon>FF.tt</DependentUpon>
+    </Compile>
     <Compile Include="BaseRepository.cs" />
     <Compile Include="FF.Context.cs">
       <AutoGen>True</AutoGen>
@@ -67,10 +71,19 @@
       <DependentUpon>FF.Model.edmx</DependentUpon>
     </Compile>
     <Compile Include="IBaseRepository.cs" />
+    <Compile Include="IUnitOfWork.cs" />
     <Compile Include="Post.cs">
       <DependentUpon>FF.tt</DependentUpon>
     </Compile>
+    <Compile Include="PostMedia.cs">
+      <DependentUpon>FF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PostRepository.cs" />
+    <Compile Include="PostTag.cs">
+      <DependentUpon>FF.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="FF.Model.edmx">
@@ -80,7 +93,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <None Include="ClassDiagram1.cd" />
     <None Include="FF.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>FF.Model.edmx</DependentUpon>

@@ -5,7 +5,13 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="34c8bc1127c443eea431f4369b88e88a" Name="Diagram1">
-        <EntityTypeShape EntityType="FinalFantasyModel.Post" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalFantasyModel.Post" Width="1.5" PointX="2.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalFantasyModel.Author" Width="1.5" PointX="5.75" PointY="0.5" />
+        <AssociationConnector Association="FinalFantasyModel.FK_Post_Author" />
+        <EntityTypeShape EntityType="FinalFantasyModel.PostMedia" Width="1.5" PointX="0.5" PointY="5.375" />
+        <EntityTypeShape EntityType="FinalFantasyModel.PostTag" Width="1.5" PointX="3.875" PointY="6.5" />
+        <AssociationConnector Association="FinalFantasyModel.FK_Post_Media1" />
+        <AssociationConnector Association="FinalFantasyModel.FK_Post_Tags1" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

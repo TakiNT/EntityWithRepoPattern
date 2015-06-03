@@ -58,6 +58,8 @@ C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd\bin\Microsoft.Owin.Security.Google.xm
 C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd\bin\System.Web.Http.Owin.xml
-C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd\obj\Debug\FFBackEnd.csprojResolveAssemblyReference.cache
 C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd\obj\Debug\FFBackEnd.dll
 C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd\obj\Debug\FFBackEnd.pdb
+C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd\bin\FFRepository.dll
+C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd\bin\FFRepository.pdb
+C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd\obj\Debug\FFBackEnd.csprojResolveAssemblyReference.cache

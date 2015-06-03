@@ -16,5 +16,37 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="Authors">
+      <EntityTypeMapping TypeName="FinalFantasyModel.Author">
+        <MappingFragment StoreEntitySet="Author">
+          <ScalarProperty Name="aIsWork" ColumnName="aIsWork" />
+          <ScalarProperty Name="aDateJoin" ColumnName="aDateJoin" />
+          <ScalarProperty Name="aPassword" ColumnName="aPassword" />
+          <ScalarProperty Name="aUsername" ColumnName="aUsername" />
+          <ScalarProperty Name="aLastName" ColumnName="aLastName" />
+          <ScalarProperty Name="aFirstName" ColumnName="aFirstName" />
+          <ScalarProperty Name="aId" ColumnName="aId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PostMedias">
+      <EntityTypeMapping TypeName="FinalFantasyModel.PostMedia">
+        <MappingFragment StoreEntitySet="PostMedia">
+          <ScalarProperty Name="mavailable" ColumnName="mavailable" />
+          <ScalarProperty Name="mupload" ColumnName="mupload" />
+          <ScalarProperty Name="msource" ColumnName="msource" />
+          <ScalarProperty Name="mname" ColumnName="mname" />
+          <ScalarProperty Name="mid" ColumnName="mid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PostTags">
+      <EntityTypeMapping TypeName="FinalFantasyModel.PostTag">
+        <MappingFragment StoreEntitySet="PostTags">
+          <ScalarProperty Name="tiname" ColumnName="tiname" />
+          <ScalarProperty Name="tid" ColumnName="tid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

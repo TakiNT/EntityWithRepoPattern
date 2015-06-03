@@ -5,6 +5,5 @@ C:\Users\T.Nle\Desktop\FFBackEnd\FFRepository\bin\Debug\EntityFramework.dll
 C:\Users\T.Nle\Desktop\FFBackEnd\FFRepository\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\T.Nle\Desktop\FFBackEnd\FFRepository\bin\Debug\EntityFramework.xml
 C:\Users\T.Nle\Desktop\FFBackEnd\FFRepository\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\T.Nle\Desktop\FFBackEnd\FFRepository\obj\Debug\FFRepository.csprojResolveAssemblyReference.cache
 C:\Users\T.Nle\Desktop\FFBackEnd\FFRepository\obj\Debug\FFRepository.dll
 C:\Users\T.Nle\Desktop\FFBackEnd\FFRepository\obj\Debug\FFRepository.pdb
