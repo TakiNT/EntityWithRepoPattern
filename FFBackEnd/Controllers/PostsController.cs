@@ -11,9 +11,11 @@ using System.Web.Http.Description;
 using FFRepository;
 using System.Web.Mvc;
 using FFBackEnd.Models;
+using System.Web.Http.Cors;
 
 namespace FFBackEnd.Controllers
 {
+    [EnableCors(origins: "http://localhost:4200", headers: "*", methods: "get,post")]
     public class PostsController : ApiController
     {
         private IUnitOfWork uow = null;
