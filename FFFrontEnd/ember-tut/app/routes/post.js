@@ -2,9 +2,9 @@ import Ember from "ember";
 
 export default Ember.Route.extend({
 	controllerName: "post",
-	modelName: "post",
+	adapter: "post",
 	setupController: function(controller, model){
-		console.log(this.connections);
+		console.log(this.store.find("post"));
 		controller.getNewestPost();
 	}
 });

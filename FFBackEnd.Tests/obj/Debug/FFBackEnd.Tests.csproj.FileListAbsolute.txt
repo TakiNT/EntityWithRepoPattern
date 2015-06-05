@@ -50,3 +50,6 @@ C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd.Tests\obj\Debug\FFBackEnd.Tests.dll
 C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd.Tests\obj\Debug\FFBackEnd.Tests.pdb
 C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd.Tests\bin\Debug\FFRepository.dll
 C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd.Tests\bin\Debug\FFRepository.pdb
+C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd.Tests\bin\Debug\System.Web.Cors.dll
+C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd.Tests\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\T.Nle\Desktop\FFBackEnd\FFBackEnd.Tests\bin\Debug\System.Web.Http.Cors.xml
