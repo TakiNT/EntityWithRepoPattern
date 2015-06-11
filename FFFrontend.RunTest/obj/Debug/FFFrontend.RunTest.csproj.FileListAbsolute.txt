@@ -1,0 +1,10 @@
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.RunTest\bin\Debug\FFFrontend.RunTest.exe.config
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.RunTest\bin\Debug\FFFrontend.RunTest.exe
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.RunTest\bin\Debug\FFFrontend.RunTest.pdb
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.RunTest\bin\Debug\FFFrontend.Tests.dll
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.RunTest\bin\Debug\WebDriver.dll
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.RunTest\bin\Debug\FFFrontend.Tests.pdb
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.RunTest\bin\Debug\WebDriver.xml
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.RunTest\obj\Debug\FFFrontend.RunTest.csprojResolveAssemblyReference.cache
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.RunTest\obj\Debug\FFFrontend.RunTest.exe
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.RunTest\obj\Debug\FFFrontend.RunTest.pdb

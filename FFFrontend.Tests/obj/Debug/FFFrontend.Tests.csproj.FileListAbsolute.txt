@@ -1,0 +1,8 @@
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.Tests\bin\Debug\FFFrontend.Tests.dll
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.Tests\bin\Debug\FFFrontend.Tests.pdb
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.Tests\bin\Debug\WebDriver.dll
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.Tests\bin\Debug\WebDriver.Support.dll
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.Tests\bin\Debug\WebDriver.xml
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.Tests\bin\Debug\WebDriver.Support.xml
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.Tests\obj\Debug\FFFrontend.Tests.dll
+C:\Users\T.Nle\Desktop\FFBackEnd\FFFrontend.Tests\obj\Debug\FFFrontend.Tests.pdb

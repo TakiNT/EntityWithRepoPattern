@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFBackEnd.Tests", "FFBackEn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFRepository", "FFRepository\FFRepository.csproj", "{81087A03-1F11-4717-BCE2-47FECF378BB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFFrontend.Tests", "FFFrontend.Tests\FFFrontend.Tests.csproj", "{914D46B6-5487-4EE3-93A3-BD084BCD497E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFFrontend.RunTest", "FFFrontend.RunTest\FFFrontend.RunTest.csproj", "{B153D223-B842-4675-8E0C-27183DFC5DDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{81087A03-1F11-4717-BCE2-47FECF378BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81087A03-1F11-4717-BCE2-47FECF378BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81087A03-1F11-4717-BCE2-47FECF378BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{914D46B6-5487-4EE3-93A3-BD084BCD497E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914D46B6-5487-4EE3-93A3-BD084BCD497E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914D46B6-5487-4EE3-93A3-BD084BCD497E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914D46B6-5487-4EE3-93A3-BD084BCD497E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B153D223-B842-4675-8E0C-27183DFC5DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B153D223-B842-4675-8E0C-27183DFC5DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B153D223-B842-4675-8E0C-27183DFC5DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B153D223-B842-4675-8E0C-27183DFC5DDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
