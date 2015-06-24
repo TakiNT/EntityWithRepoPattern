@@ -1,0 +1,6 @@
+FFFrontend.Tests/obj/
+packages/
+FFFrontend.Tests/bin/
+FFBackEnd.Tests/bin/
+FFFrontend.RunTest/bin/
+FFFrontend.RunTest/obj/
